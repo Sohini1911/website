@@ -23,6 +23,22 @@
         .name {
             font-size: 36px;
         }
+        .paintings-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .painting-item {
+            text-align: center;
+            max-width: 48%;
+            min-width: 300px;
+        }
+        .painting-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
     </style>
 </head>
 
@@ -43,10 +59,15 @@
                     </table>
                     
                     <!-- Paintings Content -->
-                    <div style="text-align:center;">
-                        <h2>Landscapes</h2>
-                        <img src="paintings/sunflower" style="width:100%;max-width:600px;height:auto; display:block; margin:auto; border-radius: 8px;">
-                        <p style="margin-top:16px;">I drew this when I was too stressed about PhD admits back in September, 2024.</p>
+                    <div class="paintings-container">
+                        <div class="painting-item">
+                            <img src="paintings/sunflower.jpg">
+                            <p style="margin-top:16px;"> I drew this when I was stressed about PhD admits back in September 2024.</p>
+                        </div>
+                        <div class="painting-item">
+                            <img src="paintings/volley">
+                            <p style="margin-top:16px;"> This was a moment from InterIIT Sports Meet 2024.</p>
+                        </div>
                     </div>
 
                     <!-- Add a link back to the main page -->
