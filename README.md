@@ -1,2 +1,1 @@
-# sohini1911.github.io-
-Sohini's Personal Website
+Sohini's Personal Website: https://sohini1911.github.io/website/
